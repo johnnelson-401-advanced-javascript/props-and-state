@@ -22,6 +22,6 @@ export default class App extends Component {
           selectColor={this.selectColor}
           colors={colors} />
       </>
-    )
+    );
   }
 }
