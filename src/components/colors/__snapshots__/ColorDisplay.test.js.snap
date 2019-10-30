@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorDisplay Renders a ColorDisplay Component 1`] = `
+<ColorDisplay
+  backgroundColor="black"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "black",
+        "height": "100px",
+        "width": "100px",
+      }
+    }
+  />
+</ColorDisplay>
+`;
