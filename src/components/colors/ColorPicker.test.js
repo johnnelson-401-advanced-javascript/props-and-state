@@ -12,6 +12,6 @@ describe('ColorPicker', () => {
     const wrapper = mount(<ColorPicker 
       selectColor={selectColor}
       colors={colors}/>);
-    expect(wrapper).toMatchSnapshot;
+    expect(wrapper).toMatchSnapshot();
   });
 });
