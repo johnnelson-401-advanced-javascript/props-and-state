@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorPicker Renders a ColorPicker 1`] = `
+<ColorPicker
+  colors={
+    Array [
+      "red",
+      "green",
+      "yellow",
+      "blue",
+      "black",
+    ]
+  }
+  selectColor={[Function]}
+>
+  <button
+    key="red"
+    onClick={[Function]}
+  >
+    red
+  </button>
+  <button
+    key="green"
+    onClick={[Function]}
+  >
+    green
+  </button>
+  <button
+    key="yellow"
+    onClick={[Function]}
+  >
+    yellow
+  </button>
+  <button
+    key="blue"
+    onClick={[Function]}
+  >
+    blue
+  </button>
+  <button
+    key="black"
+    onClick={[Function]}
+  >
+    black
+  </button>
+</ColorPicker>
+`;

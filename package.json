@@ -1,7 +1,7 @@
 {
-  "name": "starter-code",
+  "name": "props-and-state",
   "version": "1.0.0",
-  "description": "",
+  "description": "AlchemyCodeLabs Lab 28",
   "main": "src/index.js",
   "jest": {
     "setupFilesAfterEnv": [
@@ -16,11 +16,15 @@
     }
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint ./",
     "test": "jest --verbose",
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
     "build": "webpack -p --devtool source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnelson-401-advanced-javascript/props-and-state"
   },
   "keywords": [],
   "author": "",
