@@ -21,7 +21,8 @@
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
     "build": "webpack -p --devtool source-map"
-  },"repository": {
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/johnnelson-401-advanced-javascript/props-and-state"
   },
@@ -64,4 +65,3 @@
     "webpack-dev-server": "^3.9.0"
   }
 }
-
