@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RandomColor Renders a random Color 1`] = `
+<Fragment>
+  <div
+    style={
+      Object {
+        "backgroundColor": "red",
+        "height": "100px",
+        "width": "100px",
+      }
+    }
+  />
+</Fragment>
+`;
