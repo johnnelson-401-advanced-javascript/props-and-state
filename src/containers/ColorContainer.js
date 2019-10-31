@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ColorDisplay from '../components/colors/ColorDisplay';
 import ColorPicker from '../components/colors/ColorPicker';
-import RandomColor from '../components/colors/RandomColor';
 
 export default class ColorContainer extends Component {
   state = {
@@ -22,7 +21,6 @@ export default class ColorContainer extends Component {
         <ColorPicker
           selectColor={this.selectColor}
           colors={colors} />
-        <RandomColor colors={colors}/>
       </>
     );
 
