@@ -2,20 +2,22 @@ import React, { Component } from 'react';
 
 export default class RandomColor extends Component {
   state = {
-    backgroundColor: 'red'
+    randomColor: 'red'
   };
 
-  randomColor = () =>{
+  getRandomColor = () => {
     var color = '#';
     const letters = '0123456789ABCDEF';
     for(let i = 0; i < 6; i++) {
       color += letters[Math.floor(Math.random() * 16)];
     }
-    this.setState({ backgroundColor: color });
+    
+    this.setState({ randomColor: color });
   } 
 
   componentDidMount() {
-    setInterval(function() {
+    setInterval(() => {
+      this.getRandomColor();
     }, 1000);
   }
 
@@ -23,7 +25,7 @@ export default class RandomColor extends Component {
     return (
       <>
         <div style={{
-          backgroundColor: this.state,
+          backgroundColor: this.state.randomColor,
           width: '100px',
           height: '100px'
         }}></div>
